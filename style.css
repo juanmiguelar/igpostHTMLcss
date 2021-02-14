@@ -1,0 +1,47 @@
+.body {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+html,
+body {
+  background-color: whitesmoke;
+}
+
+.postImage > img {
+  max-width: 700px;
+  max-height: 700px;
+}
+
+.header {
+  text-align: center;
+  background-color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.post {
+  background-color: white;
+  max-width: 800px;
+  display: inline-block;
+  margin-top: 50px;
+  padding: 3px;
+}
+
+.postHeader{
+    display: inline-block;
+}
+
+.postTitle{
+    float: left;
+    background-color: tan;
+}
+
+.postDate{
+    background-color: teal;
+}
