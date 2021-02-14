@@ -27,21 +27,38 @@ body {
 
 .post {
   background-color: white;
-  max-width: 800px;
-  display: inline-block;
+  max-width: 700px;
+  display: block;
   margin-top: 50px;
   padding: 3px;
+  margin-left: 27%;
 }
 
 .postHeader{
     display: inline-block;
+    width: 100%;
 }
 
 .postTitle{
     float: left;
-    background-color: tan;
+    
+    padding: 5px;
+    margin-left: 50px;
+    font-weight: bolder;
 }
 
 .postDate{
-    background-color: teal;
+    
+    float: right;
+    width: 50px;
+    padding: 5px;
+    margin-right: 50px;
+    margin-top: 20px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.postDescription{
+  margin-left: 48px;
+  margin-right: 40px;
 }
